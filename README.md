@@ -11,6 +11,8 @@ Accurate weather and climate modeling is critical for both scientific advancemen
 
 ![alt text](ClimaX_vis_mena.png)
 
+Error/Bias in Predictions and Actual measurements for temperature\_2m (K). Dated, 11th April 2017, lead time 3 days
+
 ## Citation
 
 Please cite the following, if you find this work useful in your research:
