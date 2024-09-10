@@ -25,25 +25,26 @@ Forecasting on MENA region for 72 hrs prediction. Resolution is $1.40652^\circ$.
 | **RMSE** (↓)                     | Global     | 674.295       | 3.349        | 23.308         | 0.003         | 3.561         | 3.733           | 4.162           |
 |                                  | Regional   | 411.125       | 1.518        | 18.945         | 0.002         | 2.366         | 2.931           | 3.219           |
 
-# Installation Guide
+## Installation Guide
 
 
-```bash title="clone the repo"
+```
 git clone https://github.com/microsoft/ClimaX
 ```
 
-=== "`conda`"
+```
+cd ClimaX
+conda env create --file docker/environment.yml
+conda activate climaX
+```
 
-    ```bash title="create and activate env"
-    cd ClimaX
-    conda env create --file docker/environment.yml
-    conda activate climaX
-    ```
+```
+# install so the project is in PYTHONPATH
+pip install -e .
+```
 
-    ```bash title="install this package"
-    # install so the project is in PYTHONPATH
-    pip install -e .
-    ```
+For complete Installation, and usage instructions, follow guidelines [here](https://github.com/microsoft/ClimaX/blob/main/docs/usage.md)
+
 
 
 ## Citation
