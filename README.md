@@ -43,7 +43,7 @@ conda activate climaX
 pip install -e .
 ```
 
-## Dataset, Training and Evaluation
+## Dataset, Training and Evaluation [Instructions]
 
 For complete Installation and usage instructions, follow the guidelines [here](https://github.com/microsoft/ClimaX/blob/main/docs/usage.md)
 
