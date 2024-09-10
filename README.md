@@ -13,6 +13,14 @@ Accurate weather and climate modeling is critical for both scientific advancemen
 
 Error/Bias in Predictions and Actual measurements for temperature\_2m (K). Dated, 11th April 2017, lead time 3 days
 
+| **Metric**                       | **Model**  | **geop@500** | **2m_temp** | **r_hum@850** | **s_hum@850** | **temp@850** | **10m_u_wind** | **10m_v_wind** |
+|----------------------------------|------------|---------------|--------------|----------------|---------------|---------------|-----------------|-----------------|
+| **ACC** (↑)                      | Global     | 0.292         | 0.230        | 0.255          | 0.282         | 0.246         | 0.287           | 0.238           |
+|                                  | Regional   | 0.585         | 0.804        | 0.502          | 0.623         | 0.620         | 0.570           | 0.517           |
+| **RMSE** (↓)                     | Global     | 674.295       | 3.349        | 23.308         | 0.003         | 3.561         | 3.733           | 4.162           |
+|                                  | Regional   | 411.125       | 1.518        | 18.945         | 0.002         | 2.366         | 2.931           | 3.219           |
+
+
 ## Citation
 
 Please cite the following, if you find this work useful in your research:
