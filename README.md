@@ -46,7 +46,7 @@ pip install -e .
 For complete Installation and usage instructions, follow the guidelines [here](https://github.com/microsoft/ClimaX/blob/main/docs/usage.md)
 
 
-## Dataset and Training [Instructions](https://github.com/microsoft/ClimaX/blob/main/docs/usage.md)
+## Dataset and Training <[Instructions followed from this link]>(https://github.com/microsoft/ClimaX/blob/main/docs/usage.md)
 
 ## Global Forecasting
 
@@ -96,16 +96,16 @@ To finetune ClimaX for global forecasting, use
 ```
 python src/climax/global_forecast/train.py --config <path/to/config>
 ```
-For example, to finetune ClimaX on 8 GPUs use
+For example, to finetune ClimaX on 4 GPUs use
 ```bash
 python src/climax/global_forecast/train.py --config configs/global_forecast_climax.yaml \
-    --trainer.strategy=ddp --trainer.devices=8 \
+    --trainer.strategy=ddp --trainer.devices=4 \
     --trainer.max_epochs=50 \
     --data.root_dir=/mnt/data/5.625deg_npz \
     --data.predict_range=72 --data.out_variables=['z_500','t_850','t2m'] \
-    --data.batch_size=16 \
+    --data.batch_size=8 \
     --model.pretrained_path='https://huggingface.co/tungnd/climax/resolve/main/5.625deg.ckpt' \
-    --model.lr=5e-7 --model.beta_1="0.9" --model.beta_2="0.99" \
+    --model.lr=1e-5 --model.beta_1="0.9" --model.beta_2="0.99" \
     --model.weight_decay=1e-5
 ```
 To train ClimaX from scratch, set `--model.pretrained_path=""`.
@@ -122,17 +122,17 @@ To finetune ClimaX for regional forecasting, use
 ```
 python src/climax/regional_forecast/train.py --config <path/to/config>
 ```
-For example, to finetune ClimaX on North America using 8 GPUs, use
+For example, to finetune ClimaX on MENA region using 4 GPUs, use
 ```bash
 python src/climax/regional_forecast/train.py --config configs/regional_forecast_climax.yaml \
-    --trainer.strategy=ddp --trainer.devices=8 \
+    --trainer.strategy=ddp --trainer.devices=4 \
     --trainer.max_epochs=50 \
     --data.root_dir=/mnt/data/5.625deg_npz \
     --data.region="MENAreg"
     --data.predict_range=72 --data.out_variables=['z_500','t_850','t2m'] \
-    --data.batch_size=16 \
+    --data.batch_size=8 \
     --model.pretrained_path='https://huggingface.co/tungnd/climax/resolve/main/1.40625deg.ckpt' \
-    --model.lr=5e-7 --model.beta_1="0.9" --model.beta_2="0.99" \
+    --model.lr=1e-5 --model.beta_1="0.9" --model.beta_2="0.99" \
     --model.weight_decay=1e-5
 ```
 To train ClimaX from scratch, set `--model.pretrained_path=""`.
