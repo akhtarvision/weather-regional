@@ -101,12 +101,12 @@ For example, to finetune ClimaX on 4 GPUs use
 python src/climax/global_forecast/train.py --config configs/global_forecast_climax.yaml \
     --trainer.strategy=ddp --trainer.devices=4 \
     --trainer.max_epochs=50 \
-    --data.root_dir=/mnt/data/5.625deg_npz \
-    --data.predict_range=72 --data.out_variables=['z_500','t_850','t2m'] \
+    --data.root_dir=/data/1.40625deg \
+    --data.predict_range=72 --data.out_variables=['geopotential_500','temperature_850','2m_temperature','10m_u_component_of_wind','10m_v_component_of_wind','relative_humidity_850','specific_humidity_850'] \
     --data.batch_size=8 \
-    --model.pretrained_path='https://huggingface.co/tungnd/climax/resolve/main/5.625deg.ckpt' \
+    --model.pretrained_path='https://huggingface.co/tungnd/climax/resolve/main/1.40625deg.ckpt' \
     --model.lr=1e-5 --model.beta_1="0.9" --model.beta_2="0.99" \
-    --model.weight_decay=1e-5
+    --model.weight_decay=1e-5 
 ```
 To train ClimaX from scratch, set `--model.pretrained_path=""`.
 
