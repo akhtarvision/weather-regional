@@ -70,6 +70,10 @@ BOUNDARIES = {
         'lat_range': (30, 65),
         'lon_range': (0, 40)
     },
+    'MENAreg': { 
+        'lat_range': (-7, 45),
+        'lon_range': (0, 76)
+    },
     'SouthAsia': { # 10, 14
         'lat_range': (-15, 45),
         'lon_range': (25, 110)
