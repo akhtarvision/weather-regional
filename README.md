@@ -17,6 +17,7 @@ Error/Bias in Predictions and Actual measurements for temperature\_2m (K). Dated
 
 ### Global vs Regional
 Forecasting on MENA region for 72 hrs prediction. Resolution is $1.40652^\circ$. The global model performs worse whereas regional model, specific to the needs of the local region performs better.
+Link to global and regional models can be found [link](https://drive.google.com/drive/folders/1PZyo3u-n9hk66ik2dAuaFSYd4fS_9t9G?usp=sharing)
 
 | **Metric**                       | **Model**  | **geop@500** | **2m_temp** | **r_hum@850** | **s_hum@850** | **temp@850** | **10m_u_wind** | **10m_v_wind** |
 |----------------------------------|------------|---------------|--------------|----------------|---------------|---------------|-----------------|-----------------|
