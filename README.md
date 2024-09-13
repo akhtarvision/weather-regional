@@ -1,6 +1,6 @@
 # Efficient Localized Adaptation of Neural Weather Forecasting: A Case Study in the MENA Region 
 
-[Paper(arXiv)](TBA)
+[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2409.07585)
 
 Authors: [Muhammad Akhtar Munir](https://scholar.google.com.pk/citations?user=sT-epZAAAAAJ&hl=en), [Fahad Shahbaz Khan](https://scholar.google.es/citations?user=zvaeYnUAAAAJ&hl=en), [Salman Khan](https://salman-h-khan.github.io/)
 
@@ -47,7 +47,7 @@ pip install -e .
 For complete Installation and usage instructions, follow the guidelines [here](https://github.com/microsoft/ClimaX/blob/main/docs/usage.md)
 
 
-## Dataset and Training <[Instructions followed from this link](https://github.com/microsoft/ClimaX/blob/main/docs/usage.md)>
+## Dataset and Training 
 
 ## Global Forecasting
 
@@ -139,13 +139,19 @@ python src/climax/regional_forecast/train.py --config configs/regional_forecast_
 ```
 To train ClimaX from scratch, set `--model.pretrained_path=""`.
 
+[Instructions followed from this link](https://github.com/microsoft/ClimaX/blob/main/docs/usage.md)
 
 ## Citation
 
 Please cite the following, if you find this work useful in your research:
 
-```bibtex
-
+```
+@article{munir2024menaw,
+  title={Efficient Localized Adaptation of Neural Weather Forecasting: A Case Study in the MENA Region},
+  author={ Munir, Muhammad Akhtar and Khan, Fahad and Khan, Salman},
+  journal={arXiv preprint arXiv:2409.07585},
+  year={2024}
+}
 ```
 
 ## Contact
