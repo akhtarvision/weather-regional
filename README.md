@@ -139,7 +139,7 @@ python src/climax/regional_forecast/train.py --config configs/regional_forecast_
 ```
 To train ClimaX from scratch, set `--model.pretrained_path=""`.
 
-[Instructions followed from this link](https://github.com/microsoft/ClimaX/blob/main/docs/usage.md)
+Instructions are followed from this [link](https://github.com/microsoft/ClimaX/blob/main/docs/usage.md)
 
 ## Citation
 
