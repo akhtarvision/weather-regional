@@ -7,7 +7,7 @@
 <p><strong>Accepted at:</strong> 
   <a href="https://www.climatechange.ai/events/neurips2024">
     NeurIPS 2024 Workshop on Tackling Climate Change with Machine Learning
-  </a> 🎉
+  </a> 
 </p>
 
 <hr>
