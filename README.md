@@ -1,10 +1,28 @@
-# Efficient Localized Adaptation of Neural Weather Forecasting: A Case Study in the MENA Region 
+<h1>🌍 Efficient Localized Adaptation of Neural Weather Forecasting: A Case Study in the MENA Region</h1>
 
-[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2409.07585)
+<a href="https://arxiv.org/pdf/2409.07585">
+  <img src="https://img.shields.io/badge/arXiv-2409.07585-B31B1B.svg" alt="arXiv Paper">
+</a>
 
-Authors: [Muhammad Akhtar Munir](https://scholar.google.com.pk/citations?user=sT-epZAAAAAJ&hl=en), [Fahad Shahbaz Khan](https://scholar.google.es/citations?user=zvaeYnUAAAAJ&hl=en), [Salman Khan](https://salman-h-khan.github.io/)
+<p><strong>Accepted at:</strong> 
+  <a href="https://www.climatechange.ai/events/neurips2024">
+    NeurIPS 2024 Workshop on Tackling Climate Change with Machine Learning
+  </a> 🎉
+</p>
 
-This repository contains the PyTorch implementation of Efficient Localized Adaptation of Neural Weather Forecasting: A Case Study in the MENA Region
+<hr>
+
+<h2>Authors</h2>
+<ul>
+  <li><a href="https://scholar.google.com.pk/citations?user=sT-epZAAAAAJ&hl=en"><strong>Muhammad Akhtar Munir</strong></a></li>
+  <li><a href="https://scholar.google.es/citations?user=zvaeYnUAAAAJ&hl=en"><strong>Fahad Shahbaz Khan</strong></a></li>
+  <li><a href="https://salman-h-khan.github.io/"><strong>Salman Khan</strong></a></li>
+</ul>
+
+<hr>
+
+<p>This repository provides the <strong>PyTorch implementation</strong> of our study on efficient localized adaptation for neural weather forecasting, focusing on the <strong>MENA (Middle East and North Africa) region</strong>.</p>
+
 
 ## Abstract
 Accurate weather and climate modeling is critical for both scientific advancement and safeguarding communities against environmental risks. Traditional approaches rely heavily on Numerical Weather Prediction (NWP) models, which simulate energy and matter flow across Earth's systems. However, heavy computational requirements and low efficiency restrict the suitability of NWP, leading to a pressing need for enhanced modeling techniques. Neural network-based models have emerged as promising alternatives, leveraging data-driven approaches to forecast atmospheric variables. In this work, we focus on limited-area modeling and train our model specifically for localized region-level downstream tasks. As a case study, we consider the MENA region due to its unique climatic challenges, where accurate localized weather forecasting is crucial for managing water resources, agriculture and mitigating the impacts of extreme weather events. This targeted approach allows us to tailor the model's capabilities to the unique conditions of the region of interest. Our study aims to validate the effectiveness of integrating parameter-efficient fine-tuning (PEFT) methodologies, specifically Low-Rank Adaptation (LoRA) and its variants, to enhance forecast accuracy, as well as training speed, computational resource utilization, and memory efficiency in weather and climate modeling for specific regions.
