@@ -14,9 +14,9 @@
 
 <h2>Authors</h2>
 <ul>
-  <li><a href="https://scholar.google.com.pk/citations?user=sT-epZAAAAAJ&hl=en"><strong>Muhammad Akhtar Munir</strong></a></li>
-  <li><a href="https://scholar.google.es/citations?user=zvaeYnUAAAAJ&hl=en"><strong>Fahad Shahbaz Khan</strong></a></li>
-  <li><a href="https://salman-h-khan.github.io/"><strong>Salman Khan</strong></a></li>
+  <li><a href="https://scholar.google.com.pk/citations?user=sT-epZAAAAAJ&hl=en">Muhammad Akhtar Munir</a></li>
+  <li><a href="https://scholar.google.es/citations?user=zvaeYnUAAAAJ&hl=en">Fahad Shahbaz Khan</a></li>
+  <li><a href="https://salman-h-khan.github.io/">Salman Khan</a></li>
 </ul>
 
 <hr>
